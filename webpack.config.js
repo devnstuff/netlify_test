@@ -8,10 +8,11 @@ const { jsonBeautify } = require('beautify-json');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 let config = {
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/',
-    filename: 'bundle.js',
+    publicPath: '',
+    filename: '[chunkhash].bundle.js',
   },
   module: {
     rules: [

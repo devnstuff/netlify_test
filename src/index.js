@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './components/App.jsx';
 import './style.scss';
 
 render(
-  <div>
-    <p>Hello World</p>
-  </div>,
+  <Router>
+    <App />
+  </Router>,
   document.querySelector('#app')
 );
 
