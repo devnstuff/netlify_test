@@ -1,2 +1,0 @@
-(self.webpackChunkreact_boilerplate=self.webpackChunkreact_boilerplate||[]).push([[179],{579:(e,l,r)=>{"use strict";var t=r(294);(0,r(935).render)(t.createElement("div",null,t.createElement("p",null,"Hello World")),document.querySelector("#app"))}},0,[[579,700,216]]]);
-//# sourceMappingURL=main.077714e5755eecc58974.bundle.js.map
