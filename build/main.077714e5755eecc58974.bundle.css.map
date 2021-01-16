@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://react-boilerplate/./src/style.scss"],"names":[],"mappings":"AAEA,EACE,SAHS","file":"main.077714e5755eecc58974.bundle.css","sourcesContent":["$color: red;\n\np {\n  color: $color;\n}\n"],"sourceRoot":""}
